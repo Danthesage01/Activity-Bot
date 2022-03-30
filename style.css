@@ -1,0 +1,37 @@
+body{
+   margin: 0;
+   padding: 0;
+   background: #bdc3c7;  
+   background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7); 
+   background: linear-gradient(to top, #1d7fe2, #aaaaad); 
+   background-repeat: no-repeat;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: "Oxygen", sans-serif;
+ }
+ button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(0, 255, 106);
+  border: 1px solid green;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.activity{
+  font-size: 1.5rem;
+  line-height: 2em;
+  letter-spacing: 3;
+  color: #fff;
+  font-weight: 500;
+}
+.activity ul{
+  list-style: none;
+}
+.fun {
+  background: #fc4a1a; 
+  background: -webkit-linear-gradient(to right, #3378f7, #fc1acb); 
+  background: linear-gradient(to left, #7c1afc, #fc1acb);
+}
